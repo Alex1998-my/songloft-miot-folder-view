@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/songloft-org/songloft-plugin-miot",
+  "release": "v2026.10.25.1",
+  "source_commit": "f5d3fcec84a92b0218a095bee280a60f94819b5c",
+  "archive_sha256": "777aab1ff3a89b929fcfbfd3f03f2dad053c63983065fae8c611223890115239",
+  "license": "Apache-2.0"
+}

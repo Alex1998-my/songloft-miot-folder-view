@@ -1,0 +1,22 @@
+Songloft MIoT Folder View
+
+This distribution includes and modifies songloft-org/songloft-plugin-miot.
+Upstream author attribution: Songloft Team; upstream README author: hanxi.
+Upstream project: https://github.com/songloft-org/songloft-plugin-miot
+Upstream release: v2026.10.25.1
+Upstream source commit: f5d3fcec84a92b0218a095bee280a60f94819b5c
+Upstream license: Apache License, Version 2.0.
+
+Custom version maintainer: https://github.com/Alex1998-my
+
+Modifications (2026-10-26): added an expandable folder/playlist browser,
+folder search, direct song playback via the existing playback path, an
+original-view switch, reproducible packaging tools, and a generic installer.
+The upstream backend bytecode is retained unchanged.
+
+The bundled upstream frontend includes Vue 3.5.43, copyright 2018-present
+Yuxi (Evan) You and Vue contributors, licensed under MIT. Its existing
+license notices remain in the bundled JavaScript. See THIRD_PARTY_LICENSES.md.
+
+This is a community derivative, not an official Xiaomi or Songloft release.
+Product and project names belong to their respective owners.
