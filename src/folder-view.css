@@ -1,0 +1,22 @@
+.folder-view-root { min-height:100%; }
+.folder-view-page { padding-bottom:120px!important; }
+.folder-view-toolbar,.folder-view-filters,.folder-view-actions { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+.folder-view-toolbar { justify-content:space-between; margin-bottom:16px; }
+.folder-view-toolbar h2 { font-size:22px; margin:0 0 6px; }
+.folder-view-toolbar p,.folder-view-hint { font-size:13px; opacity:.65; margin:0; }
+.folder-view-filters { margin-bottom:20px; }
+.folder-view-search { flex:1; min-width:180px; border:1px solid #b8bdc7; background:transparent; color:inherit; border-radius:12px; padding:12px 14px; font:inherit; }
+.folder-view-button { padding:9px 14px; border-radius:10px; border:1px solid #a9b6c9; background:transparent; color:inherit; cursor:pointer; font:inherit; font-size:14px; }
+.folder-view-button:hover,.folder-view-heading:hover { background:rgba(0,122,255,.07); }
+.folder-view-button:disabled { opacity:.45; cursor:wait; }
+.folder-view-folder { margin:0 0 12px; border:1px solid rgba(128,137,153,.35); border-radius:14px; overflow:hidden; }
+.folder-view-heading { width:100%; display:flex; align-items:center; gap:12px; border:0; background:rgba(128,137,153,.06); color:inherit; padding:17px 18px; text-align:left; cursor:pointer; font:inherit; }
+.folder-view-chevron { width:14px; color:#0786ff; font-size:20px; }
+.folder-view-icon { font-size:22px; }
+.folder-view-name { flex:1; min-width:0; overflow-wrap:anywhere; font-weight:600; }
+.folder-view-count { white-space:nowrap; opacity:.6; font-size:13px; }
+.folder-view-body { border-top:1px solid rgba(128,137,153,.25); padding:8px 14px 14px; }
+.folder-view-actions { padding:6px 0 14px; }
+.folder-view-message { padding:20px; opacity:.8; }
+.folder-view-original-switch { position:fixed; z-index:50; top:8px; left:50%; transform:translateX(-50%); background:var(--sl-surface,#fff); border-radius:12px; }
+@media(max-width:600px) { .folder-view-heading { padding:14px 10px; gap:8px; } .folder-view-body { padding:6px; } .folder-view-toolbar p { line-height:1.6; } }
